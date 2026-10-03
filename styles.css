@@ -66,3 +66,16 @@ body::after{content:"STAGING — NOT LIVE";position:fixed;right:12px;bottom:12px
 .career-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line);margin-top:3rem;border:1px solid var(--line)}
 .career-grid article{background:var(--paper);padding:2rem}.career-grid p,.product-note{color:var(--muted)}
 @media(max-width:800px){.career-grid{grid-template-columns:1fr}}
+
+
+.four-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;padding-top:0}
+.four-grid article{padding:3rem 3rem 2.5rem 0;border-top:1px solid var(--ink)}
+.four-grid article:nth-child(even){padding-left:3rem;border-left:1px solid var(--line)}
+.four-grid article:nth-child(n+3){border-top:1px solid var(--line)}
+.four-grid span{font-size:.72rem;color:var(--muted)}
+.four-grid p{color:var(--muted);max-width:28rem}
+.four-grid .service-label{margin-top:1.5rem;color:var(--accent);font-size:.72rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase}
+@media(max-width:800px){
+  .four-grid{grid-template-columns:1fr}
+  .four-grid article,.four-grid article:nth-child(even){padding:2rem 0;border-left:0}
+}
