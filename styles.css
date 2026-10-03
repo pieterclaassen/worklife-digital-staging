@@ -75,7 +75,7 @@ body::after{content:"STAGING — NOT LIVE";position:fixed;right:12px;bottom:12px
 .four-grid span{font-size:.72rem;color:var(--muted)}
 .four-grid p{color:var(--muted);max-width:28rem}
 .four-grid .service-label{margin-top:1.5rem;color:var(--accent);font-size:.72rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase}
-@media(max-width:800px){
+@media(max-width:640px){
   .four-grid{grid-template-columns:1fr}
   .four-grid article,.four-grid article:nth-child(even){padding:2rem 0;border-left:0}
 }
