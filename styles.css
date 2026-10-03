@@ -99,3 +99,9 @@ body::after{content:"STAGING — NOT LIVE";position:fixed;right:12px;bottom:12px
 .pull-quote{font-family:Georgia,"Times New Roman",serif;font-size:1.65rem;line-height:1.25;padding:1.5rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .article-body hr{border:0;border-top:1px solid var(--line);margin:3.5rem 0}
 @media(max-width:800px){.article-page{padding:6rem 5vw}.article-header{margin-bottom:3rem}}
+
+
+.data-table-wrap{overflow-x:auto;margin:2.5rem 0 3rem}
+.data-table{width:100%;border-collapse:collapse;font-size:.92rem}
+.data-table th,.data-table td{padding:.75rem .9rem;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.data-table th{font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--accent)}
